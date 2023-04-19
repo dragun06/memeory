@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="fr">
+  <head>
+    <title>Meme ory</title>
+    <meta http-equiv="Content-Script-Type" content="text/tcl" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section>
+      <div class="container">
+        <div class="background">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="titre">
+                <h2 class="main-title title-background border-none mrg-prepa">
+                  Preparation
+                </h2>
+              </div>
+              <div class="player-list">
+                <div class="col-lg-12 first-player player-form player-height">
+                  <div class="col-mrg">
+                    <div class="row">
+                      <div class="col-lg-4 align-center">
+                        <div class="name">
+                          <h3>Votre nom :</h3>
+                        </div>
+                      </div>
+                      <div class="col-lg-8 prep-btn">
+                        <div>
+                          <input
+                            class="btn-prep"
+                            type="text"
+                            id="name0"
+                            placeholder="Nom"
+                            name="name"
+                            required
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 new-player player-form player-height">
+                  <div class="col-mrg">
+                    <div class="row">
+                      <div class="col-lg-4 align-center">
+                        <div class="name">
+                          <h3>Joueur 2 :</h3>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 prep-btn">
+                        <div>
+                          <input
+                            class="btn-prep"
+                            type="text"
+                            id="name1"
+                            name="name"
+                            placeholder="Nom"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-2 prep-btn">
+                        <div>
+                          <select class="btn-jia" size="1">
+                            <option>Joueur</option>
+                            <option>I.A</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 prep-btn">
+                        <div>
+                          <img
+                            class="add-field"
+                            width="40px"
+                            src="../plus-circle-solid.svg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="row">
+                <button class="btn submit-players config-btn">
+                  <a href="./tour.html">PLAY</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../script/Config/config.js"></script>
+    <script src="../script/Config/SetupController.js"></script>
+  </body>
+</html>

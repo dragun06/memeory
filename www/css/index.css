@@ -1,0 +1,572 @@
+html,
+li,
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+  font-size: 26px !important;
+}
+
+h3 {
+  font-size: 22px !important;
+  margin: 0px !important;
+}
+
+h4 {
+  font-size: 14px !important;
+}
+
+li {
+  font-size: 14px !important;
+}
+
+.align-center {
+  align-self: center !important;
+}
+
+.cross {
+  width: 30px;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: -50px;
+}
+
+.header {
+  padding: 30px;
+}
+
+.main-title {
+  padding: 50px 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.title-background {
+  background: linear-gradient(#1d856f33, #000000a6);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.background-game {
+  background: #1ebd9d;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+  margin-top: 10px;
+}
+
+.background {
+  background-color: #1d856f;
+}
+
+.mrg-auto {
+  margin: auto;
+}
+
+.row {
+  height: -webkit-fill-available;
+}
+
+.border-none {
+  border: none;
+}
+
+.title {
+  width: 75%;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.player-height {
+  height: 50px;
+}
+
+.parameters {
+  margin-left: 8%;
+}
+
+.background-game::marker {
+  display: none;
+}
+
+.time {
+  background: #1ebd9d;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  margin-top: 10px;
+  padding: 25px 0px;
+  text-align: center;
+  width: 140px;
+  font-family: 'Press Start 2P', cursive;
+  height: 100px;
+}
+
+.player-turn {
+  background: linear-gradient(#1d856f33, #000000a6);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  text-align: center;
+  padding: 25px 0px;
+  margin-left: 30px;
+  width: 200px;
+  margin-top: 10px;
+  font-family: 'Press Start 2P', cursive;
+  height: 100px;
+}
+
+.nb-tries {
+  background: linear-gradient(#1d856f33, #000000a6);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  text-align: center;
+  padding: 25px 0px;
+  margin-left: 30px;
+  width: 200px;
+  margin-top: 10px;
+  font-family: 'Press Start 2P', cursive;
+  height: 100px;
+}
+
+.cartes {
+  background: linear-gradient(#3defc96e, #00000040);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  margin-left: 70px;
+  width: 130px;
+  height: 130px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.mrg-prepa {
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.titre {
+  padding: 30px 355px;
+}
+
+.prep-btn {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.name {
+  text-align: right;
+}
+
+.btn-prep {
+  background-color: #5ab19e;
+  border-color: black;
+  border-radius: 10px;
+  height: 40px;
+  font-family: 'Press Start 2P', cursive;
+  width: 170px;
+
+}
+
+.btn-jia {
+  background-color: #6bf1c5;
+  border-color: black;
+  border-radius: 10px;
+  height: 40px;
+  width: 140px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.fa-plus-circle {
+  content: #f055;
+}
+
+.col-mrg {
+  margin-top: 20px;
+}
+
+.game {
+  display: block;
+}
+
+.game-img{
+    width: 130px;
+    border-radius: 15px;
+    height: 130px;
+}
+
+.add-field{
+  cursor: pointer;
+}
+
+.remove-field{
+  cursor: pointer;
+}
+
+/* Partie Paramètres */
+
+.game-parameters {
+  display: none;
+}
+
+.absolute {
+  position: absolute !important;
+}
+
+.game-parameters {
+  text-align: -webkit-center;
+  border: 15px #173533 solid;
+  border-radius: 60px;
+  position: absolute;
+  width: 1080px;
+  top: 175px;
+  height: 635px;
+  background: #145f4f;
+  left: 410px;
+}
+
+.game-parameters-title {
+  width: 50%;
+  background: linear-gradient(#1d856f33, #000000a6);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  padding: 10px;
+}
+
+.game-parameters-padding {
+  padding: 50px;
+}
+
+.game-parameters-padding-2 {
+  padding: 280px 225px 0px;
+}
+
+.game-parameters-background {
+  border-radius: 5px;
+  margin-top: 50px;
+  border: 1px #000000 solid;
+  box-shadow: 2px 2px 2px black;
+  width: 350px;
+}
+
+.game-parameters-background-2 {
+  border-radius: 5px;
+  border: 1px #000000 solid;
+  box-shadow: 2px 2px 2px black;
+  width: 350px;
+  margin-top: 150px;
+}
+
+.game-parameters-background p {
+  margin-top: 1em;
+}
+
+.game-parameters-background-2 p {
+  margin-top: 1em;
+}
+
+.game-parameters-on {
+  align-self: center;
+  text-align: left;
+  font-size: 20px;
+  top: 160px;
+  left: 850px;
+}
+
+.game-parameters-off {
+  align-self: center;
+  text-align: right;
+  font-size: 20px;
+  top: 160px;
+  left: 620px;
+}
+
+.game-parameters-on-2 {
+  align-self: center;
+  text-align: left;
+  font-size: 20px;
+  top: 60px;
+  left: 850px;
+}
+
+.game-parameters-off-2 {
+  align-self: center;
+  text-align: right;
+  font-size: 20px;
+  top: 60px;
+  left: 620px;
+}
+
+.parameters-switch-2 {
+  top: 45px;
+  left: 700px;
+}
+
+.parameters-switch {
+  top: 145px;
+  left: 700px;
+}
+
+.game-parameter-forfeit {
+  width: 625px;
+  padding: 20px;
+  background: #b51010;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 300px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  z-index: 10;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider::before {
+  position: absolute;
+  content: '';
+  height: 50px;
+  width: 50px;
+  left: 5px;
+  bottom: 5px;
+  background-color: #145f4f;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  border-radius: 50px;
+}
+
+.input:checked + .slider {
+  background-color: teal;
+}
+
+.input:checked + .slider::before {
+  transform: translateX(50px);
+}
+
+/* Partie Forfait */
+
+.game-forfeit {
+  display: none;
+}
+
+.game-forfeit {
+  text-align: -webkit-center;
+  border: 15px #173533 solid;
+  border-radius: 60px;
+  position: absolute;
+  width: 1080px;
+  top: 175px;
+  height: 635px;
+  background: #145f4f;
+  left: 410px;
+}
+
+.confirm-forfeit{
+  cursor: pointer;
+}
+
+.no-forfeit{
+  cursor: pointer;
+}
+
+.game-ff {
+  font-size: 28px;
+  width: 330px;
+  margin-top: 150px;
+}
+
+/* Partie Terminée */
+
+.game-victory {
+  display: none;
+}
+
+.game-victory {
+  text-align: -webkit-center;
+  border: 15px #173533 solid;
+  border-radius: 60px;
+  position: absolute;
+  width: 1080px;
+  top: 10px;
+  height: 910px;
+  background: #145f4f;
+  left: 420px;
+}
+
+.game-victory-winner {
+  width: 55%;
+  background: #30bb9ee8;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  padding: 40px;
+}
+
+.game-victory-rematch {
+  width: 50%;
+  background: #408a7ae8;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.game-victory-quit {
+  width: 50%;
+  background: #ab1818;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.game-victory-padding-1 {
+  padding: 100px 0px 20px;
+}
+
+.game-victory-padding-2 {
+  padding: 20px 0px 20px;
+}
+
+.ml15 {
+  font-weight: 800;
+  font-size: 3.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: #000000;
+  padding: 40px;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.background-game h4 {
+  padding: 5px 0px;
+}
+
+.tour-title {
+  padding: 20px 0px 0px 0px;
+}
+
+.config-btn {
+  margin: auto;
+  background: linear-gradient(#1d856f33, #000000a6);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px black;
+  border: none !important;
+  color: #fff;
+}
+
+.config-btn a {
+  padding: 10px 15px !important;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.btn:focus,
+.btn.focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+a {
+  color: #fff !important;
+}
+
+a:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+/* The switch - the box around the slider */ 
+.switch { 
+  position: relative; 
+  display: inline-block; 
+  width: 60px; 
+  height: 34px; 
+} 
+ 
+/* Hide default HTML checkbox */ 
+.switch input { 
+  opacity: 0; 
+  width: 0; 
+  height: 0; 
+} 
+ 
+/* The slider */ 
+.slider { 
+    position: absolute; 
+    cursor: pointer; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: #2196F3; 
+    -webkit-transition: .4s; 
+    transition: .4s; 
+    width: 120px; 
+    height: 57px; 
+} 
+ 
+.slider:before { 
+  position: absolute; 
+  content: ""; 
+  height: 50px; 
+  width: 50px; 
+  left: 4px; 
+  bottom: 4px; 
+  background-color: white; 
+  -webkit-transition: .4s; 
+  transition: .4s; 
+} 
+ 
+input:checked + .slider { 
+  background-color: #ccc; 
+} 
+ 
+input:focus + .slider { 
+  box-shadow: 0 0 1px #ccc; 
+} 
+ 
+input:checked + .slider:before { 
+  -webkit-transform: translateX(62px); 
+  -ms-transform: translateX(62px); 
+  transform: translateX(62px); 
+} 
+ 
+/* Rounded sliders */ 
+.slider.round { 
+  border-radius: 34px; 
+} 
+ 
+.slider.round:before { 
+  border-radius: 50%; 
+}

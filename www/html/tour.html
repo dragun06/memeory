@@ -1,0 +1,191 @@
+<!DOCTYPE HTML PUBLIC" -//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd"> 
+<HTML lang="fr">
+
+<HEAD>
+    <TITLE>Meme ory</TITLE>
+    <META http-equiv="Content-Script-Type" content="text/tcl">
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</HEAD>
+
+<BODY>
+    <section class="white">
+        <div class="container">
+            <div class="background">
+                <div class="header">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="title title-background scores">
+                                <div class="background-game scores-title"><h3>SCORES</h3></div>
+                                <ul class="scores-list">
+                                    <li class="background-game">Joueur 1: 2</li>
+                                    <li class="background-game">Joueur 2: 1</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="title title-background"><h2 class="tour-title">MEME ORY</h2></div>
+                                <button class="background border-none parameters"><img
+                                        src="../media/cog-wheel-silhouette_icon-icons.com_73617.png"
+                                        alt="parametres" /></button>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="time">Timer:</div>
+                                    <div class="player-turn">Tour du joueur: Toto</div>
+                                    <div class="nb-tries">Nombre de coups: 234</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game">
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div i="0" class="cartes"><img class="game-img" src="../media/imag5.gif" /></div>
+                                    <div i="1" class="cartes"><img class="game-img" src="../media/imag5.gif" /></div>
+                                    <div i="2" class="cartes"><img class="game-img" src="../media/imag4.gif" /></div>
+                                    <div i="3" class="cartes"><img class="game-img" src="../media/imag6.gif" /></div>
+                                    <div i="4" class="cartes"><img class="game-img" src="../media/bob.jpg" /></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div i="5" class="cartes"><img class="game-img" src="../media/bob.jpg" /></div>
+                                    <div i="6" class="cartes"><img class="game-img" src="../media/harold.gif" /></div>
+                                    <div i="7" class="cartes"><img class="game-img" src="../media/imag6.gif" /></div>
+                                    <div i="8" class="cartes"><img class="game-img" src="../media/imag3.gif" /></div>
+                                    <div i="9" class="cartes"><img class="game-img" src="../media/baby-yoda.gif" /></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div i="10" class="cartes"><img class="game-img" src="../media/harold.gif" /></div>
+                                    <div i="11" class="cartes"><img class="game-img" src="../media/neverdending.jpg" /></div>
+                                    <div i="12" class="cartes"><img class="game-img" src="../media/baby-yoda.gif" /></div>
+                                    <div i="13" class="cartes"><img class="game-img" src="../media/imag3.gif" /></div>
+                                    <div i="14" class="cartes"><img class="game-img" src="../media/imag1.gif" /></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div i="15" class="cartes"><img class="game-img" src="../media/imag1.gif" /></div>
+                                    <div i="16" class="cartes"><img class="game-img" src="../media/imag2.gif" /></div>
+                                    <div i="17" class="cartes"><img class="game-img" src="../media/imag4.gif" /></div>
+                                    <div i="18" class="cartes"><img class="game-img" src="../media/imag2.gif" /></div>
+                                    <div i="19" class="cartes"><img class="game-img" src="../media/neverdending.jpg" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-parameters">
+                    <div class="game-parameters-padding">
+                        <div class="game-parameters-title">
+                            <h2>PARAMETRES</h2>
+                        </div>
+                        <img class="cross" src="../times-solid.svg" />
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-6 absolute">
+                                <div class="game-parameters-background">
+                                    <p>Musique</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 absolute">
+                                <div class="game-parameters-mrg">
+                                    <div class="row">
+                                        <div class="game-parameters-off-2 absolute">
+                                            <p>ON</p>
+                                        </div>
+                                        <label class="switch parameters-switch-2">
+                                            <input type="checkbox">
+                                            <span class="music-slider slider"></span>
+                                            </input>
+                                        </label>
+                                        <div class="game-parameters-on-2 absolute">
+                                            <p>OFF</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 absolute">
+                                <div class="game-parameters-background-2">
+                                    <p>Sons</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 absolute">
+                                <div class="game-parameters-mrg">
+                                    <div class="row">
+                                        <div class="game-parameters-off absolute">
+                                            <p>ON</p>
+                                        </div>
+                                        <label class="switch parameters-switch">
+                                            <input type="checkbox">
+                                            <span class="sound-slider slider"></span>
+                                            </input>
+                                        </label>
+                                        <div class="game-parameters-on absolute">
+                                            <p>OFF</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="game-parameter-forfeit">
+                                    <h2>ABANDONNER</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-forfeit">
+                    <div class="game-parameters-padding">
+                        <div class="game-parameters-title">
+                            <h2>ABANDONNER ?</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="confirm-forfeit time game-ff">OUI</div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="no-forfeit time game-ff">NON</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-victory">
+                    <div class="game-parameters-padding">
+                        <div class="game-parameters-title">
+                            <h2>PARTIE TERMINEE</h2>
+                        </div>
+                    </div>
+                    <div class="game-parameters-padding">
+                        <div class="game-victory-winner">
+                            <h2>Victoire de</h2>
+                        </div>
+                    </div>
+                    <div class="game-victory-padding-1">
+                        <div class="game-victory-rematch">
+                            <h2>RECOMMENCER</h2>
+                        </div>
+                    </div>
+                    <div class="game-victory-padding-2">
+                        <div class="game-victory-quit">
+                            <h2>QUITTER</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="../script/Game/Game.js"></script>
+        <script src="../script/Sound/Sound.js"></script>
+        <script src="../script/Tour/tour.js"></script>
+        <script src="../script/Timer/ChronoControleur.js"></script>
+        <script src="../script/Timer/ChronoModele.js"></script>
+        <script src="../script/Timer/ChronoVue.js"></script>
+    </BODY>
+</HTML>
